@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
+from keras.utils import image_dataset_from_directory
 from keras.preprocessing.image import ImageDataGenerator
 import keras 
 from keras.callbacks import EarlyStopping,ModelCheckpoint
